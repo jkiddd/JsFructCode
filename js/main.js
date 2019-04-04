@@ -1,7 +1,8 @@
-var  one = 'hello world';
+var  one = 'Моя первая переменная';
 
 // alert(one);
 console.log(one);
 
 // document.getElementById('message').innerHTML = one;
-$('#message').text(one);
+// вывод спощью джейквери по  ID
+// $('#message').text(one);
