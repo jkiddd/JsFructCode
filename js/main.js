@@ -16,4 +16,6 @@ $('.myclass').text(one);
 // document.getElementsByClassName("myclass")[0].innerHTML =  one;
 console.log(document.getElementsByClassName("myclass"));
 
-document.getElementsByClassName("myclass")[0].style.color = "red";
+// document.getElementsByClassName("myclass")[0].style.color = "red";
+$('.myclass').css('color','green');
+$('.myclass').css('background-color','black');
