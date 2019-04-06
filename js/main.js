@@ -48,3 +48,15 @@ function mySum(a,b) {
     return a+b;
 }
 console.log(mySum(3,3));
+
+function mySumShow(a,b) {
+    result = a+b;
+    document.getElementsByClassName("myclass")[0].innerHTML =  result;
+}
+mySumShow(5,5);
+
+function mySumShow(a,b) {  
+    document.getElementsByClassName("myclass")[0].innerHTML =  mySum(a,b);
+}
+
+mySumShow(15,3);
