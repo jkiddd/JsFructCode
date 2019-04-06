@@ -17,5 +17,8 @@ $('.myclass').text(one);
 console.log(document.getElementsByClassName("myclass"));
 
 // document.getElementsByClassName("myclass")[0].style.color = "red";
-$('.myclass').css('color','green');
+$('.myclass').css('color','red');
 $('.myclass').css('background-color','black');
+$('.myclass').css('border','2px solid green');
+$('.myclass').css('margin','15px 20px');
+$('.myclass').css('padding','20px');
