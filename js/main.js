@@ -60,3 +60,12 @@ function mySumShow(a,b) {
 }
 
 mySumShow(15,3);
+
+// test3.onclick = function() {
+//     alert('Привет мир')
+// }
+var say = function(){
+    alert('привет мир'); 
+}    
+test3.addEventListener('click', say);
+test3.removeEventListener('click',say);
