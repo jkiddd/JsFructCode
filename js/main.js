@@ -15,3 +15,5 @@ $('.myclass').text(one);
 // вывод спомощью JS
 // document.getElementsByClassName("myclass")[0].innerHTML =  one;
 console.log(document.getElementsByClassName("myclass"));
+
+document.getElementsByClassName("myclass")[0].style.color = "red";
