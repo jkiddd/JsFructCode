@@ -42,3 +42,9 @@ arrayString = arrayString.reverse();
 for(var i = 0; i < arrayString.length; i++) {
     $('#result').append(arrayString[i].toUpperCase() + '<br>');
 }
+
+// функция
+function mySum(a,b) {
+    return a+b;
+}
+console.log(mySum(3,3));
