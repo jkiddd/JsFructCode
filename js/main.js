@@ -67,5 +67,9 @@ mySumShow(15,3);
 var say = function(){
     alert('привет мир'); 
 }    
-test3.addEventListener('click', say);
-test3.removeEventListener('click',say);
+// test3.addEventListener('click', say);
+// test3.removeEventListener('click',say);
+// правой кнопкой мыщи
+// test3.addEventListener('contextmenu', say);
+// событие наведение мыщи
+test3.addEventListener('mouseover', say);
